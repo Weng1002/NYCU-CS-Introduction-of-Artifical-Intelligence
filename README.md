@@ -37,7 +37,21 @@ Implement various search algorithms to find paths in real-world map data (Hsinch
 本專案展示五種常見的圖搜尋演算法（UCS、A*、BFS、DFS recursive、DFS stack）在「新竹市」實際地圖上的路徑搜尋結果。每張圖呈現不同演算法的探索方式與行走路徑。
 
 1. UCS - Uniform Cost Search（均一成本搜尋）
+
 ![UCS](Fig/UCS.png)
+
+核心概念：總是擴展「目前花費成本最小」的節點。
+
+適合：邊權（edge cost）不同的圖。
+
+資料結構：Priority Queue（優先佇列，依照累積成本排序）
+
+特點：
+- 可找到 成本最低 的路徑。
+- 探索區域與實際距離密切相關。
+
+
+
 
 ---
 
