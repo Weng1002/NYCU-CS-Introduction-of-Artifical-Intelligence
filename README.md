@@ -44,3 +44,63 @@ Develop intelligent agents for the Connect Four game using adversarial search te
 - Alpha-Beta Pruning Agent
 - StrongAgent with custom heuristic function
 - GUI-based game and CLI batch simulation
+
+### ✅ Evaluation
+- Minimax: 10%
+- Alpha-Beta: 10%
+- Strong Agent + Heuristic: 10%
+- Report: 30%
+- Demo session: 40%
+
+---
+
+## 🖼️ HW3: CNN and Decision Tree for Image Classification
+
+Train a CNN for animal image classification and apply Decision Tree using extracted features.
+
+### 🔧 Features
+- Custom CNN (≤ 3 conv layers) using PyTorch
+- Decision Tree using information gain
+- Visualization: `loss.png`
+- Kaggle submission for model evaluation
+
+### ✅ Evaluation
+- CNN model: 25%
+- Decision Tree: 30%
+- Plot & Experiments: 10%
+- Kaggle Score (CNN + DT): 40%
+  - CNN > 80% acc for full score
+  - DT > 75% acc for full score
+
+---
+
+## 🎰 HW4: Multi-Armed Bandit Reinforcement Learning
+
+Implement agents to solve the k-armed bandit problem under both stationary and non-stationary environments.
+
+### 🔧 Features
+- Environment class: Gaussian reward for each arm
+- ε-Greedy agent with sample-average or constant step-size
+- Experiments: reward trends, optimal action percentage
+- Matplotlib for plotting results
+
+### ✅ Evaluation
+- Implementation: 15%
+- Experiments & Analysis: 45%
+- Report quality: 5%
+- Quiz: 40%
+
+---
+
+## 📌 Notes
+- Do not use non-standard libraries unless explicitly permitted.
+- All reports must be written in **English** and saved as `report.pdf`.
+- Submission must follow the required folder and file structure, or penalties will apply.
+
+## 🧠 Academic Integrity
+Plagiarism or unauthorized code sharing will result in **zero credit** for the assignment.
+
+## 📞 Q&A
+For assignment-specific questions, visit the course's Notion or E3 platform.
+
+
