@@ -33,7 +33,7 @@ Implement various search algorithms to find paths in real-world map data (Hsinch
 - Testing (10 scenarios): scaled scoring
 - Demo session: 40%
 
-###🚗 圖探索演算法比較（Graph Search Algorithm Comparison）
+### 🚗 圖探索演算法比較（Graph Search Algorithm Comparison）
 本專案展示五種常見的圖搜尋演算法（UCS、A*、BFS、DFS recursive、DFS stack）在「新竹市」實際地圖上的路徑搜尋結果。每張圖呈現不同演算法的探索方式與行走路徑。
 
 1. UCS - Uniform Cost Search（均一成本搜尋）
