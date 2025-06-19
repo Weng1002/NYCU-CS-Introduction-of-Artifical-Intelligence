@@ -50,6 +50,27 @@ Implement various search algorithms to find paths in real-world map data (Hsinch
 - 可找到 成本最低 的路徑。
 - 探索區域與實際距離密切相關。
 
+2. A* Search（A星搜尋）
+
+![A*](Fig/A.png)
+
+核心概念：f(n) = g(n) + h(n)，其中：
+
+g(n) 是目前的實際成本（cost so far），
+
+h(n) 是從當前節點到目標的預估成本（heuristic）。
+
+適合：需快速找到最短路徑的情況。
+
+資料結構：Priority Queue，依據 f(n) 排序。
+
+特點：
+
+- 結合貪婪與成本導向，通常比 UCS 更快。
+- h(n) 越準確效果越好。
+
+
+
 
 
 
